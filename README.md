@@ -10,32 +10,58 @@ This project implements a complete data pipeline for processing, storing, and an
 - SQL (Joins, Aggregations, Subqueries)
 - SQLite Database
 
+# Dataset Information
+
+This project uses publicly available patent datasets from sources such as PatentsView.
+
+# Required Files
+
+Place the following files in the `data/` folder:
+
+- g_patent.tsv  
+- g_inventor_disambiguated.tsv  
+- g_patent_inventor.tsv  
+- g_location.tsv  
+- g_assignee_disambiguated.tsv  
+
+# Description
+
+- **g_patent.tsv** → Patent details (ID, title, date, claims)  
+- **g_inventor_disambiguated.tsv** → Inventor information  
+- **g_patent_inventor.tsv** → Links patents to inventors  
+- **g_location.tsv** → Geographic data  
+- **g_assignee_disambiguated.tsv** → Company/assignee data  
+
+# Note
+
+These datasets are not included due to their large size.  
+Download them from the official source and place them in the `data/` directory.
 
 #  Project Structure
 
 patent-data-pipeline/
-│
-├── scripts/
-│ ├── process_patents.py
-│ ├── process_inventors.py
-│ ├── process_locations.py
-│ ├── process_companies.py
-│ ├── load_to_db.py
-│ └── generate_reports.py
-│
-├── sql/
-│ ├── schema.sql
-│ └── queries.sql
-│
-├── cleaned_data/
-├── reports/
-│ ├── top_inventors.csv
-│ ├── top_companies.csv
-│ ├── country_trends.csv
-│ └── report.json
-│
-├── patents.db
-└── README.md
+
+ scripts/
+    process_patents.py
+    process_inventors.py
+    process_locations.py
+    process_companies.py
+    load_to_db.py
+    generate_reports.py
+
+ sql/
+    schema.sql
+    queries.sql
+
+ cleaned_data/
+ reports/
+    top_inventors.csv
+    top_companies.csv
+    country_trends.csv
+    report.json
+
+ patents.db
+ README.md
 
 
 #  How to Run the Project
