@@ -1,0 +1,129 @@
+{
+    "total_patents": 9454161,
+    "top_inventors": [
+        {
+            "name": "Shunpei Yamazaki",
+            "patent_count": 6787
+        },
+        {
+            "name": "Kia Silverbrook",
+            "patent_count": 4778
+        },
+        {
+            "name": "Tao Luo",
+            "patent_count": 4490
+        },
+        {
+            "name": "Jonathan P. Ive",
+            "patent_count": 2947
+        },
+        {
+            "name": "Junyi Li",
+            "patent_count": 2881
+        },
+        {
+            "name": "Kangguo Cheng",
+            "patent_count": 2835
+        },
+        {
+            "name": "Frederick E. Shelton, IV",
+            "patent_count": 2723
+        },
+        {
+            "name": "Peter Gaal",
+            "patent_count": 2554
+        },
+        {
+            "name": "Duncan Robert Kerr",
+            "patent_count": 2534
+        },
+        {
+            "name": "Bartley K. Andre",
+            "patent_count": 2478
+        }
+    ],
+    "top_companies": [
+        {
+            "name": "\u212bkers AB",
+            "total_records": 1
+        },
+        {
+            "name": "\u212bMIC AB",
+            "total_records": 1
+        },
+        {
+            "name": "\u212bL\u00d6 AB",
+            "total_records": 1
+        },
+        {
+            "name": "\u212bBO AKADEMI UNIVERSITY",
+            "total_records": 1
+        },
+        {
+            "name": "\u212bAC Microtec AB",
+            "total_records": 1
+        },
+        {
+            "name": "\u212b&R Carton Lund Aktiebolag",
+            "total_records": 1
+        },
+        {
+            "name": "\u2032T Groene Loo BV",
+            "total_records": 1
+        },
+        {
+            "name": "\u201cZAZA\u201d TEXTILL\u00d6SUNGEN GMBH",
+            "total_records": 1
+        },
+        {
+            "name": "\u201cVERTA RESEARCH-PRODUCTION COMPANY\u201dLTD",
+            "total_records": 1
+        },
+        {
+            "name": "\u201cTWIN TECHNOLOGY COMPANY\u201d(000)",
+            "total_records": 1
+        }
+    ],
+    "top_countries": [
+        {
+            "country": "US",
+            "total_patents": 11663616
+        },
+        {
+            "country": "JP",
+            "total_patents": 4008386
+        },
+        {
+            "country": "DE",
+            "total_patents": 1396261
+        },
+        {
+            "country": "KR",
+            "total_patents": 1289431
+        },
+        {
+            "country": "CN",
+            "total_patents": 1042910
+        },
+        {
+            "country": "TW",
+            "total_patents": 659787
+        },
+        {
+            "country": "FR",
+            "total_patents": 502861
+        },
+        {
+            "country": "GB",
+            "total_patents": 496926
+        },
+        {
+            "country": "CA",
+            "total_patents": 470214
+        },
+        {
+            "country": "IN",
+            "total_patents": 255216
+        }
+    ]
+}

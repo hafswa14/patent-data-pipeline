@@ -1,0 +1,43 @@
+
+# Python
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+# Virtual Environments
+
+venv/
+env/
+.venv/
+
+
+# Data Files 
+
+data/
+cleaned_data/
+
+
+# Database
+
+*.db
+*.sqlite3
+
+
+# Large Files
+
+*.zip
+*.tsv
+
+
+# OS Files
+
+.DS_Store
+Thumbs.db
+
+
+# Streamlit Cache
+
+.streamlit/
