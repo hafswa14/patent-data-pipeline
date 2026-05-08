@@ -1,10 +1,11 @@
 GLOBAL PATENT INTELLIGENCE DATA PIPELINE
 
-Student Name: 
-Course: 
-Date: 
+Student Name: NASSIWA HAFSWA
+REG NO. : 23/U/23750
+Course: BSSE
+Date: 10/5/2026
 
-GitHub Repository:
+GitHub Repository: https://github.com/hafswa14/patent-data-pipeline
 
 
 Dashboard Link:
