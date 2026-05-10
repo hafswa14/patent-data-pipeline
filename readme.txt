@@ -8,7 +8,7 @@ Date: 10/5/2026
 GitHub Repository: https://github.com/hafswa14/patent-data-pipeline
 
 
-Dashboard Link:
+Dashboard Link: https://patent-data-pipeline-qdb5zwid8yn5efwrex8zyo.streamlit.app/
 
 
 Project Description:
