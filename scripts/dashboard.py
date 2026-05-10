@@ -22,9 +22,10 @@ st.sidebar.info(
 )
 
 base_dir = os.path.dirname(__file__)
-#db_path = os.path.join(base_dir, "..", "patents.db")
-# Use demo DB for testing
-db_path = os.path.join(base_dir, "..", "patents_demo.db")  
+if os.path.exists(os.path.join(base_dir, "..", "patents.db")):
+    db_path = os.path.join(base_dir, "..", "patents.db")
+else:
+    db_path = os.path.join(base_dir, "..", "patents_demo.db") 
 
 conn = sqlite3.connect(db_path)
 
@@ -124,16 +125,13 @@ col1, col2 = st.columns(2)
 # Top Inventors
 with col1:
     st.subheader("Top Inventors")
-    st.bar_chart(
-    top_inventors.set_index("name")
-)
+    st.dataframe(top_inventors)
+
 
 # Top Countries
 with col2:
     st.subheader("Top Countries")
-    st.bar_chart(
-    top_countries.set_index("country")
-)
+    st.dataframe(top_countries)
     
 
 st.divider()
