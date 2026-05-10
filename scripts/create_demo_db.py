@@ -12,27 +12,27 @@ conn_demo = sqlite3.connect(demo_db)
 
 # Sample patents
 patents = pd.read_sql_query(
-    "SELECT * FROM patents LIMIT 50000",
+    "SELECT * FROM patents ORDER BY RANDOM() LIMIT 50000",
     conn_full
 )
 
 inventors = pd.read_sql_query(
-    "SELECT * FROM inventors LIMIT 20000",
+    "SELECT * FROM inventors ORDER BY RANDOM() LIMIT 20000",
     conn_full
 )
 
 locations = pd.read_sql_query(
-    "SELECT * FROM locations LIMIT 5000",
+    "SELECT * FROM locations ORDER BY RANDOM() LIMIT 5000",
     conn_full
 )
 
 companies = pd.read_sql_query(
-    "SELECT * FROM companies LIMIT 10000",
+    "SELECT * FROM companies ORDER BY RANDOM() LIMIT 10000",
     conn_full
 )
 
 patent_inventor = pd.read_sql_query(
-    "SELECT * FROM patent_inventor LIMIT 50000",
+    "SELECT * FROM patent_inventor ORDER BY RANDOM() LIMIT 50000",
     conn_full
 )
 
