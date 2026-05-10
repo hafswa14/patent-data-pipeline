@@ -9,7 +9,9 @@ st.set_page_config(page_title="Patent Dashboard", layout="wide")
 st.title("📊 Patent Data Dashboard")
 
 base_dir = os.path.dirname(__file__)
-db_path = os.path.join(base_dir, "..", "patents.db")
+#db_path = os.path.join(base_dir, "..", "patents.db")
+# Use demo DB for testing
+db_path = os.path.join(base_dir, "..", "patents_demo.db")  
 
 conn = sqlite3.connect(db_path)
 
